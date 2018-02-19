@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: onlyEvenNumbers
+  inspection: Uses:even
+- binding: onlyEvenNumbers
+  inspection: Uses:filter
+- binding: onlyEvenNumbers
+  inspection: Not:Uses:HasDirectRecursion
