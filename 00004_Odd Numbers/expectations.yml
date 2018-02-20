@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: onlyEvenNumbers
+  inspection: Uses:filter
+- binding: onlyEvenNumbers
+  inspection: Uses:even
