@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: onlyEvenNumbers
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: onlyEvenNumbers
   inspection: Uses:even
-- binding: onlyEvenNumbers
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: onlyEvenNumbers
   inspection: Uses:filter
