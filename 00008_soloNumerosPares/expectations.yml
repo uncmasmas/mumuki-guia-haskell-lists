@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: soloNumerosPares
+  inspection: Uses:even
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: soloNumerosPares
+  inspection: Uses:filter
