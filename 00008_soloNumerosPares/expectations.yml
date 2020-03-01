@@ -8,4 +8,7 @@ expectations:
   inspection: Uses:filter
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: soloNumerosPares
-  inspection: Assigns
+  inspection: HasWrongCaseBindings
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Except:DiscardsExceptions
