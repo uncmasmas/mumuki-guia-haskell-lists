@@ -7,8 +7,5 @@ expectations:
   binding: soloNumerosPares
   inspection: Uses:filter
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: soloNumerosPares
-  inspection: HasWrongCaseBindings
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Except:DiscardsExceptions
+  inspection: Except:HasRedundantParameter
