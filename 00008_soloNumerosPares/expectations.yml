@@ -6,3 +6,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: soloNumerosPares
   inspection: Uses:filter
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: soloNumerosPares
+  inspection: Assigns
